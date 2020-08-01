@@ -1,0 +1,20 @@
+{
+	"name": "TensorFlow Python 3",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.linting.pylintEnabled": false,
+		"python.linting.mypyEnabled": true,
+		"python.linting.enabled": true,
+		"python.formatting.provider": "black"
+	},
+	"extensions": [
+		"ms-python.python",
+		"mechatroner.rainbow-csv",
+		"ms-azuretools.vscode-docker"
+	]
+}
